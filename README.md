@@ -1,4 +1,4 @@
-# simple-dockerfile-for-tor
+# simple dockerfile for tor
 
 Example of a possible Docker Compose with it:
 ````
