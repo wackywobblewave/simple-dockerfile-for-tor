@@ -1,4 +1,5 @@
 # simple dockerfile for tor
+[Dockerfile](https://github.com/wackywobblewave/simple-dockerfile-for-tor/blob/main/Dockerfile)
 
 Example of a possible Docker Compose with it:
 ````
