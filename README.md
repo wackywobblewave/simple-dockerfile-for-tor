@@ -9,6 +9,7 @@ services:
        - ./tor:/var/lib/tor/ 
        - ./torrc:/etc/tor/torrc
     restart: unless-stopped
+
   caddy:
     image: caddy:latest
     restart: unless-stopped
