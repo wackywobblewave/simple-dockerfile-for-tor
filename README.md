@@ -23,7 +23,7 @@ services:
 
 An example of the torrc
 ````
- HiddenServiceDir /var/lib/tor/site
+ HiddenServiceDir /var/lib/tor/example
  HiddenServicePort 80 caddy:80
 ````
 
