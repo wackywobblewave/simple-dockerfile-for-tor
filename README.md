@@ -2,6 +2,8 @@
 [Dockerfile](https://github.com/wackywobblewave/simple-dockerfile-for-tor/blob/main/Dockerfile)
 
 Example of a possible Docker Compose with it:
+_Create the Caddyfile and torrc before you create the container._
+_You don't need to open any ports for Caddy, because Tor will access it via the Docker network._
 ````
 services:
   tor:
@@ -20,9 +22,6 @@ services:
       - ./caddy/caddy_data:/data
       - ./caddy/caddy_config:/config
 ````
-_Create the Caddyfile and torrc before you create the container._
-_You don't need to open any ports for Caddy, because Tor will access it via the Docker network._
-
 
 An example of the torrc
 ````
